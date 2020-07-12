@@ -1,0 +1,140 @@
+
+body {
+    background-color: #242424;
+    color: whitesmoke;
+    font-family: Roboto Mono, monospace;
+    margin: 0px;
+    
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    min-height: 50px;
+    padding: 0px;
+    margin: 0px;
+    background-color: white;
+    color: #242424;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: 900;
+}
+
+ul {
+    display: inline-flex;
+    flex-direction: column;
+    align-content: space-around;
+    margin: 0px;
+    padding: 0px;
+}
+
+li {
+    list-style: none;
+    margin: 5px;
+    text-align: center;
+}
+
+a {
+    color: #070707;
+    text-decoration: none;
+}
+
+#pricing {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.product {
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+#level {
+    background-color: whitesmoke;
+}
+
+#video {
+    min-width: 70%;
+}
+
+div {
+    text-align: center;
+}
+
+#container {
+    padding: 200px 0px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 70%;
+}
+
+.desc
+{
+    
+    width: inherit;
+}
+
+.level
+{
+    font-weight: 1000;
+}
+
+.btn {
+    align-self: center;
+    height: 40px;
+    width: 100px;
+    margin: 20px;
+    text-transform: uppercase;
+    font-family: inherit;
+    font-size: 1em;
+    font-weight: 900;
+    padding: 0px;
+    border: 3px orange;
+    border-radius: 2px;
+    background: orange;
+  }
+
+  .btn:hover {
+    background-color: #8b5d1f;
+  }
+
+footer {
+    position: static;
+    bottom: 0;
+    min-height: 75px;
+    min-width: 100%;
+    padding: unset;
+    background-color: white;
+    color: #242424;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+    font-weight: 900;
+}
+
+
+
+@media (max-width: 600px) {
+    #header-img {
+        margin-top: 15px;
+        width: 30%;
+        position: relative;
+    }
+}
+
