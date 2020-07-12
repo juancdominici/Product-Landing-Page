@@ -1,2 +1,2 @@
-# product landing page example
- 
+# Product Landing Page example
+ Example created for freeCodeCamp project detailing a product landing page.
